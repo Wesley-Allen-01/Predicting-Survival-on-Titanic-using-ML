@@ -5,12 +5,12 @@ This project focuses on using machine learning techniques to predict the surviva
 ## Libraries Used
 The project makes use of the following libraries:
 
-numpy: for data handling
-pandas: for data manipulation
-seaborn: for data visualization
-sklearn: for data preprocessing and model evaluation
-tensorflow and keras: for developing the neural network model
-##Dataset Exploration
+numpy: for data handling <br>
+pandas: for data manipulation <br>
+seaborn: for data visualization <br>
+sklearn: for data preprocessing and model evaluation <br>
+tensorflow and keras: for developing the neural network model <br>
+## Dataset Exploration
 The code begins by importing necessary libraries and loading the Titanic dataset using Seaborn's built-in function sns.load_dataset('titanic'). The titanic.head() function is used to display the first few rows of the dataset, while titanic.info() and titanic.describe() provide information about the dataset's structure and summary statistics. The print(titanic.columns) statement displays the names of all columns in the dataset.
 
 ## Data Preparation
